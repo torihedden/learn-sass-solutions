@@ -1,0 +1,13 @@
+// Modify the border-thickness mixin from the previous exercise to also
+//   accept a @content, and invoke it by passing in a rule that sets the
+//   border-style of the img element to solid.
+
+
+  @mixin thickener($thickness){
+    border-width: $thickness;
+    border-style: solid;
+  }
+
+  img {
+    @include thickener(10px);
+  }
