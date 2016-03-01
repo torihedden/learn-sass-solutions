@@ -1,0 +1,7 @@
+
+
+  $selector: article;
+    $attr: color;
+    $selector {
+      #{attr}-color: #f00;
+    }
